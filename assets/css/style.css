@@ -3,7 +3,119 @@ header {
     background: linear-gradient(to right, hsl(13, 100%, 72%) 50%, hsl(353, 100%, 62%) 100%);
 }
 .imagemheader {
-    height: 70em;
+    height: 20em;
     position: absolute;
-    left: 50%;
+    left: 60%;
+}
+
+.logo {
+    padding: 2em 0 0 2em;
+}
+
+.menutopo fieldset {
+    padding: 0 1.5em 0 0;
+}
+
+
+.menutopo {
+    position: relative;
+    left: 11%;
+    display: flex;
+    bottom: 2em;
+    width: 20%;
+}
+
+.menutopo legend {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    padding: 0 1em 0 0;
+    
+}
+
+.menutopo select {
+    background: transparent border-box;
+    border: none;
+    width: 20%;
+    position: relative;
+    left: 90%;
+    bottom: 1.2em;
+    
+}
+
+.menutopo option {
+    padding: 0 1.5em 0 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    padding: 0 1em 0 0;
+    background-color: none;
+    border: none;
+}
+
+#botaologin, #botaosign {
+    position: relative;
+    left: 75%;
+    width: 8%;
+    border: none;
+    border-radius: 7em;
+    padding: 1.2em;
+    bottom: 4em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#botaologin {
+    margin: 0 1em 0 0;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#botaosign {
+    background-color: #FFFFFF;
+    color: hsl(13, 100%, 72%);
+    
+}
+
+.tituloheader {
+    position: relative;
+    left: 25%;
+    font-size: 4em;
+    width: 76%;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 0 0.8em 0;
+}
+
+.textoheader {
+    position: relative;
+    left: 35%;
+    font-size: 1.5em;
+    width: 76%;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#botaostart, #botaolearn {
+    position: relative;
+    left: 39%;
+    width: 9%;
+    border: none;
+    border-radius: 7em;
+    padding: 1.2em;
+    margin: 5em 1em 5em 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#botaolearn {
+    background-color: transparent;
+    border: solid 1px #FFFFFF;
+    color: #FFFFFF;
+}
+
+#botaostart {
+    color: hsl(13, 100%, 72%);
 }
