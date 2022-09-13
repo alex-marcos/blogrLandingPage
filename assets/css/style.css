@@ -1,19 +1,19 @@
 /* Css do header*/
 header {
     background: linear-gradient(to right, hsl(13, 100%, 72%) 50%, hsl(353, 100%, 62%) 100%);
+    border-bottom-left-radius: 5em;
+    z-index: 1;
 }
 .imagemheader {
-    height: 20em;
+    height: 224em;
     position: absolute;
-    left: 60%;
+    left: -20%;
+    bottom: -70em;
+    z-index: 0;
 }
 
 .logo {
     padding: 2em 0 0 2em;
-}
-
-.menutopo fieldset {
-    padding: 0 1.5em 0 0;
 }
 
 
@@ -25,33 +25,64 @@ header {
     width: 20%;
 }
 
-.menutopo legend {
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
     color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2em;
-    padding: 0 1em 0 0;
-    
-}
-
-.menutopo select {
-    background: transparent border-box;
+    padding: 16px;
+    font-size: 16px;
     border: none;
-    width: 20%;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .dropbtn:hover i {
+    transform: rotate(-180deg);
+    transition: 0.2s;
+  }
+  
+  .dropdown {
     position: relative;
-    left: 90%;
-    bottom: 1.2em;
-    
+    display: inline-block;
+  }
+
+  .dropdown i {
+    color: #FFFFFF;
+  }
+  
+  /* Conteudo do dropdown (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1em;
+  }
+  
+  /* Links dentro do dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {
+    font-weight: bold;}
+
+
+.dropdown:hover .dropdown-content {
+    border-radius: 0.5em;
+    display: block;
+
 }
 
-.menutopo option {
-    padding: 0 1.5em 0 0;
-    color: rgb(0, 0, 0);
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2em;
-    padding: 0 1em 0 0;
-    background-color: none;
-    border: none;
-}
+/* Estilização dos itens dentro do dropdown */
+.dropdown:hover .dropbtn {
+    text-decoration: underline;}
+
 
 #botaologin, #botaosign {
     position: relative;
@@ -119,3 +150,8 @@ header {
 #botaostart {
     color: hsl(13, 100%, 72%);
 }
+
+main {
+    z-index: 2;
+}
+

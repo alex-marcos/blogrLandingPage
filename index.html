@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <script src="./assets/scripts/script.js" defer></script>
+  <script src="https://kit.fontawesome.com/51647b2e97.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" sizes="16x16"  href="./assets/imagens/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -15,37 +16,43 @@
 <body>
   <header>
     <img src="./assets/images/logo.svg" alt="Logo da Blogr" class="logo">
+    <img src="./assets/images/bg-pattern-intro-desktop.svg" alt="Quadrados e um circulo." class="imagemheader">
 
     <div class="menutopo">
-      <fieldset>
-        <legend>Product</legend>
-        <select>
-          <option>Prices</option>
-          <option>Packages</option>
-          <option>Releases</option>
-        </select>
-      </fieldset>
+      
+      <div class="dropdown">
+        
+        <button class="dropbtn">Product <i class="fa-solid fa-angle-down"></i></button>
+        <div class="dropdown-content">
+          <a href="#">Prices</a>
+          <a href="#">Packages</a>
+          <a href="#">Releases</a>
+        </div>
+      </div>
+    
+    
+    <div class="dropdown">
+      <button class="dropbtn">Company <i class="fa-solid fa-angle-down"></i></button> 
+        <div class="dropdown-content">
+          <a href="#">Corporation</a>
+          <a href="#">People</a>
+          <a href="#">Local</a>
+        </div>
 
-      <fieldset>
-        <legend>Company</legend>
-        <select>
-          <option>Corporation</option>
-          <option>Local</option>
-          <option>People</option>
-        </select>
-      </fieldset>
-
-      <fieldset>
-        <legend>Connect</legend>
-        <select>
-          <option>Instagram</option>
-          <option>LinkedIn</option>
-          <option>Twitter</option>
-        </select>
-      </fieldset>
     </div>
+    
+    <div class="dropdown">
+     
+      <button class="dropbtn">Connect <i class="fa-solid fa-angle-down"></i></button> 
+        <div class="dropdown-content">
+          <a href="https://www.instagram.com">Instagram</a>
+          <a href="https://www.linkedin.com">LinkedIn</a>
+          <a href="https://www.twitter.com">Twitter</a>
+        </div>
 
-    <img src="./assets/images/bg-pattern-intro-desktop.svg" alt="Quadrados e um circulo." class="imagemheader">
+     </div>
+    
+    </div>
 
     <input type="button" value="Login" id="botaologin">
     <input type="button" value="Sign Up" id="botaosign">
@@ -58,6 +65,7 @@
 
 
   </header>
+  
   <main></main>
   <footer></footer>
 </body>
