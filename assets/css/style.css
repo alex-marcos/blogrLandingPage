@@ -2,15 +2,20 @@
 header {
     background: linear-gradient(to right, hsl(13, 100%, 72%) 50%, hsl(353, 100%, 62%) 100%);
     border-bottom-left-radius: 5em;
+    position: relative;
     z-index: 1;
+    overflow: hidden;
+
 }
+
 .imagemheader {
-    height: 224em;
-    position: absolute;
-    left: -20%;
-    bottom: -70em;
-    z-index: 0;
+   position: absolute;
+   z-index: -1;
+   top: -82em;
+   right: -59%;
+   
 }
+
 
 .logo {
     padding: 2em 0 0 2em;
@@ -23,6 +28,7 @@ header {
     display: flex;
     bottom: 2em;
     width: 20%;
+    z-index: 1;
 }
 
 /* Dropdown Button */
@@ -152,6 +158,8 @@ header {
 }
 
 main {
-    z-index: 2;
+    z-index: 3;
+    background-color: #FFFFFF;
+    position: absolute;
 }
 
