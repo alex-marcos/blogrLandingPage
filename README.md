@@ -37,3 +37,8 @@ Os usuarios deverão ser capazes de:
     </div>
 </div>
 
+<div align="centre">
+<h2 align="centre"> Para vizualisar o projeto acesse o link abaixo:<h2>
+
+<p>**Link de acesso:** https://laetuus.github.io/blogrLandingPage/index.html</p>
+
