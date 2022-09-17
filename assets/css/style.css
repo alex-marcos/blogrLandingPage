@@ -1,3 +1,6 @@
+main {
+    height: fit-content;
+}
 /* Css do header*/
 header {
     background: linear-gradient(to right, hsl(13, 100%, 72%) 50%, hsl(353, 100%, 62%) 100%);
@@ -5,6 +8,7 @@ header {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    
 
 }
 
@@ -157,9 +161,139 @@ header {
     color: hsl(13, 100%, 72%);
 }
 
+/* Css do main do site */ 
+
 main {
-    z-index: 3;
-    background-color: #FFFFFF;
-    position: absolute;
+    overflow: hidden;
+    
 }
 
+/* Css main parte 1 (Editor) */
+.titulomain1 {
+    font-size: 2em;
+    color: #324153;
+    padding: 2em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.mainparte1 {
+    text-align: left;
+    width: 30%;
+    color: #324153;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 0 15em;
+    line-height: 2em;
+}
+
+.mainparte1 p {
+    font-size: 1.2em;
+}
+
+
+.editordesktop {
+    float: right;
+    position: relative;
+    left: 15%;
+    bottom: 45em;
+    margin: 4em 0 0 0;
+}
+
+
+/* Css main parte 2 (intraestrutura) */
+.titulomain2 {
+    font-size: 2em;
+    padding: 2em 0 1em 0 ;
+}
+
+.container-main {
+    background-color: #383955;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    bottom: 40em; 
+    height: 30em;
+    border-bottom-left-radius: 8em;
+    border-top-right-radius: 8em;
+}
+
+
+.circlemain {
+    position: relative;
+    bottom: 15em;
+    height: 82em;
+    right: 10%;
+
+}
+
+.mainparte2 {
+    width: 40%;
+}
+
+.titulomain3, .mainparte2 p {
+    position: relative;
+    right: 35%;
+}
+
+.titulomain3 {
+    font-size: 3em;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 1.2em;
+}
+
+.mainparte2 p {
+    color: #FFFFFF;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.8em;
+}
+
+.mobilemain {
+    position: relative;
+    bottom: 90em;
+    left: 12%;
+    height: 45em;
+}
+
+/* Css main parte 3 (Free, open, simple) */ 
+
+.mainnote {
+    position: relative;
+    bottom: 25em;
+    right: 49.5%;
+    height: 60em;
+}
+
+.mainparte3 {
+    position: relative;
+    bottom: 80em;
+    left: 50%;
+    width: 30%;
+    
+}
+
+.titulomain4 {
+    color: #324153;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    line-height: 1.8em;
+    margin-top: 2em;
+}
+
+.mainparte3 p {
+    color: #324153;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin-top: 2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+   
