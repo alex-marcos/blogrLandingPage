@@ -13,6 +13,12 @@ Esse projeto tem por intuito me desafiar a fazer animações em JavaScript, onde
 (./design/desktop-preview.jpg)
 
 
+<h2 align="centre"> Gif do Resultado</h2>
+<div align="center">
+    <img align="center" alt="Design do site" height="400" width="500" src="./assets/design/resultado_final.gif"> 
+</div>
+
+***OBS:*** O vídeo está com slow motion por conta da *** ferramenta de conversão para .gif ***
 
 
 ## O Desafio
