@@ -10,7 +10,8 @@ Esse projeto tem por intuito me desafiar a fazer animações em JavaScript, onde
 
 <h2 align="centre">Imagem de como deverá ficar:</h2>
 
-./design/desktop-preview.jpg
+
+<img align="center" alt="Design do site" height="400" width="500" src="./assets/design/desktop-preview.jpg">
 
 
 <h2 align="centre"> Gif do Resultado</h2>
